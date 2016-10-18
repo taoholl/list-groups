@@ -67,7 +67,6 @@ select,
 textarea,
 [tabindex] {
   -ms-touch-action: manipulation;
-  touch-action: manipulation;
 }
 
 img {
@@ -666,7 +665,6 @@ select,
 textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: none;
 }
 
 input,
@@ -714,11 +712,6 @@ select {
   border-radius: 0;
 }
 
-select:focus,
-select:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='36' viewBox='0 0 50 42' fill='%23000'%3E%3Cpolygon points='0,0 50,0 25,42' /%3E%3C/svg%3E");
-}
-
 input[type="checkbox"] {
   height: .9em;
   min-height: .9em;
@@ -727,18 +720,9 @@ input[type="checkbox"] {
 
   -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: none;
   background-color: #fff;
 
   overflow: hidden;
-}
-
-input[type="checkbox"]:checked {
-  background-color: #e2e2e2;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='#000' stroke-width='60' stroke-miterlimit='10' d='M31.7 137.2L90 195.4 224.6 60.6'/%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 input[type="radio"] {
@@ -749,19 +733,10 @@ input[type="radio"] {
 
   -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: none;
   background-color: #fff;
   border-radius: 50%;
 
   overflow: hidden;
-}
-
-input[type="radio"]:checked {
-  background-color: #e2e2e2;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle cx='128' cy='128' r='60'/%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 input[type="range"] {
